@@ -26,7 +26,6 @@ class Polygon:
         """Draw a regular polygon using left(360 / sides)."""
         # TODO: lift pen; go to starting vertex; set heading/color/pensize;
         #       lower pen; draw sides; lift pen.
-    def draw(self):
         self._pen.pensize(self._size)
         self._pen.penup()
         self._pen.goto(self._x, self._y)
